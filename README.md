@@ -24,7 +24,7 @@ This project delivers a fully interactive **Excel-based operational performance 
 
 The dashboard tracks agent productivity, customer satisfaction, revenue contribution, call volume trends, and demographic service patterns — translating raw operational data into executive-ready insights through dynamic pivot charts and an interactive representative slicer.
 
-Designed to mirror the analytical workflows found in **clinical operations, healthcare contact centers, and supply chain service environments**, this dashboard enables decision-makers to monitor performance, identify service bottlenecks, and optimize resource allocation at both the macro and individual rep level.
+Built for operations leaders, the dashboard surfaces peak-demand periods, staffing gaps, and rep-level performance, supporting workforce capacity planning and resource allocation at both the team and individual rep level.
 
 ---
 
@@ -119,7 +119,7 @@ Stacked bar chart comparing gender-split call volume across all three service ce
 | Cleveland | 326 | 6 |
 | Columbus | 129 | 206 |
 
-Cleveland shows a notable gender concentration (326F vs 6M) — a signal relevant for demographic-based service design and equity analysis, skills directly applicable in healthcare population health reporting.
+Cleveland shows a notable gender concentration (326F vs 6M) — a signal worth investigating for service design and staffing.
 
 ---
 
@@ -164,7 +164,7 @@ The centerpiece of the dashboard's interactivity. Click any rep in the slicer pa
 | R04 | 186 | $16.7k | 4th | 4th |
 | R05 | 200 | $20.1k | 3rd | 2nd |
 
-> **Key Insight:** R03 ranks #1 in revenue despite handling fewer calls than R02 — indicating higher-value customer interactions per contact, directly analogous to high-performing clinical staff efficiency or top-tier logistics carrier productivity metrics.
+> **Key Insight:** R03 ranks #1 in revenue despite handling fewer calls than R02 — indicating higher-value customer interactions per contact.
 
 ---
 
@@ -183,44 +183,12 @@ The centerpiece of the dashboard's interactivity. Click any rep in the slicer pa
 
 ---
 
-## 🏥 Relevance to Target Roles
-
-### Clinical Data Analyst / Healthcare Operations Analyst
-
-This dashboard structure mirrors real-world **patient experience reporting, clinical contact center analytics, and HCAHPS dashboards**:
-
-| Dashboard Element | Clinical / Healthcare Equivalent |
-|---|---|
-| Satisfaction Rating (0–5) | HCAHPS patient satisfaction scores |
-| Rep performance comparison | Provider / care team productivity metrics |
-| Monthly call volume trend | Patient encounter / admission volume forecasting |
-| Call duration bucketing | Average Length of Stay (ALOS) / throughput tracking |
-| City-level breakdown | Multi-facility or department-level performance comparison |
-| Happy Callers KPI | Patient satisfaction threshold compliance rate |
-| Gender demographic chart | Health equity and patient demographic segmentation |
-| Dynamic slicer | Provider- or unit-level drill-down filtering |
-
-### Supply Chain & Logistics Analyst
-
-The same analytical patterns translate directly to **logistics operations centers, distribution hubs, and last-mile delivery management**:
-
-| Dashboard Element | Supply Chain / Logistics Equivalent |
-|---|---|
-| Monthly peak call volume | Seasonal shipment demand forecasting |
-| Day-of-week pattern | Fulfillment center shift and staffing optimization |
-| Rep revenue contribution | Carrier / route performance benchmarking |
-| Regional customer table | Distribution node or warehouse performance reporting |
-| Call duration analysis | Order processing time / SLA compliance tracking |
-| Interactive slicer | Carrier, SKU, or route-level operational drill-down |
-
----
-
 ## 📌 Key Findings
 
 1. **March and April are the highest-demand months** (40 calls each) — over 4× the slowest months, requiring proactive staffing strategies for peak service periods
-2. **R03 leads in revenue** ($20,900) despite ranking 2nd in volume — higher value per interaction, a pattern identical to high-performing clinical staff who maximize patient outcomes per encounter
+2. **R03 leads in revenue** ($20,900) despite ranking 2nd in volume — higher value per interaction
 3. **Tuesday is the busiest day** (44 calls vs 24 on Monday/Saturday) — an 83% swing that signals scheduling imbalance across the week
-4. **Cleveland shows an extreme gender concentration** (326F vs 6M) — a demographic pattern requiring investigation, mirroring health equity analyses in clinical settings
+4. **Cleveland shows an extreme gender concentration** (326F vs 6M) — a demographic pattern requiring investigation
 5. **~35 calls rated 3 stars** — a reachable improvement cohort; moving these to 4 stars would raise the overall CSAT meaningfully without requiring any structural change
 6. **R04 ranks last in both calls and revenue** — the only rep below the average on both dimensions, surfaced only through this cross-dimensional analysis
 
