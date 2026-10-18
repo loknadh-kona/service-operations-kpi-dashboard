@@ -44,7 +44,7 @@ Customer-facing operations generate high volumes of interaction data that go und
 ## 📁 Repository Structure
 
 ```
-📦 customer-service-performance-dashboard/
+📦 customer-service-kpi-dashboard/
 │
 ├── 📊 Customer_Service_Excellence___Operational_Performance_Dashboard.xlsx
 ├── 📄 README.md
